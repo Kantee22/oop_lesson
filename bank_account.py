@@ -21,7 +21,7 @@ class AccountDB:
                 return account
         return None
 
-    def delete_account(self, account_num):
+    def delete_ac(self, account_num):
         index = self.__search_private(account_num)
         if index != -1:
             print("Deleting account:", self.account_database[index]["account_number"])
